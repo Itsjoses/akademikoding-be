@@ -1,1 +1,36 @@
+# Dependencies
 node_modules
+
+# Build output
+/dist
+/build
+
+# Prisma generated client
+/src/generated
+
+# Tests / coverage
+/coverage
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / Editor
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Misc
+*.tsbuildinfo
+.eslintcache
